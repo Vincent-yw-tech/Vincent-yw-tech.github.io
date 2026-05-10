@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蒋奕文 - 个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alibaba+PuHuiTi:wght@400;700&display=swap">
+</head>
+<body>
+    <!-- 背景装饰 -->
+    <div class="bg-decorations" aria-hidden="true">
+        <!-- 各色波点 -->
+        <span class="deco deco-dot" style="top:8%;left:6%;width:5px;height:5px;background:rgba(180,200,230,0.35);"></span>
+        <span class="deco deco-dot" style="top:22%;left:90%;width:7px;height:7px;background:rgba(160,190,220,0.4);"></span>
+        <span class="deco deco-dot" style="top:52%;left:3%;width:4px;height:4px;background:rgba(200,180,220,0.3);"></span>
+        <span class="deco deco-dot" style="top:68%;left:85%;width:6px;height:6px;background:rgba(170,195,225,0.38);"></span>
+        <span class="deco deco-dot" style="top:85%;left:12%;width:8px;height:8px;background:rgba(190,170,215,0.32);"></span>
+        <span class="deco deco-dot" style="top:38%;left:94%;width:5px;height:5px;background:rgba(175,200,228,0.36);"></span>
+        <span class="deco deco-dot" style="top:15%;left:55%;width:3px;height:3px;background:rgba(185,190,225,0.42);"></span>
+        <span class="deco deco-dot" style="top:78%;left:38%;width:6px;height:6px;background:rgba(165,195,222,0.34);"></span>
+        <span class="deco deco-dot" style="top:45%;left:22%;width:7px;height:7px;background:rgba(195,175,210,0.3);"></span>
+        <span class="deco deco-dot" style="top:92%;left:75%;width:4px;height:4px;background:rgba(178,198,226,0.4);"></span>
+        <span class="deco deco-dot" style="top:32%;left:42%;width:9px;height:9px;background:rgba(188,185,222,0.28);"></span>
+        <span class="deco deco-dot" style="top:58%;left:65%;width:5px;height:5px;background:rgba(170,192,220,0.38);"></span>
+        <!-- 圆环 -->
+        <span class="deco deco-ring" style="top:18%;left:72%;width:12px;height:12px;border-color:rgba(160,195,225,0.35);"></span>
+        <span class="deco deco-ring" style="top:62%;left:80%;width:10px;height:10px;border-color:rgba(185,210,235,0.3);"></span>
+        <span class="deco deco-ring" style="top:40%;left:10%;width:14px;height:14px;border-color:rgba(175,190,218,0.32);"></span>
+        <span class="deco deco-ring" style="top:82%;left:42%;width:9px;height:9px;border-color:rgba(200,185,225,0.28);"></span>
+        <span class="deco deco-ring" style="top:25%;left:32%;width:11px;height:11px;border-color:rgba(165,200,228,0.34);"></span>
+        <span class="deco deco-ring" style="top:72%;left:18%;width:13px;height:13px;border-color:rgba(180,195,222,0.3);"></span>
+        <!-- 星星 -->
+        <span class="deco deco-star" style="top:5%;left:12%;background:rgba(210,195,238,0.25);"></span>
+        <span class="deco deco-star" style="top:8%;left:55%;background:rgba(195,180,225,0.22);"></span>
+        <span class="deco deco-star" style="top:12%;left:82%;background:rgba(220,200,240,0.24);"></span>
+        <span class="deco deco-star" style="top:18%;left:35%;background:rgba(200,185,230,0.26);"></span>
+        <span class="deco deco-star" style="top:22%;left:65%;background:rgba(215,190,235,0.23);"></span>
+        <span class="deco deco-star" style="top:25%;left:88%;background:rgba(205,178,225,0.22);"></span>
+        <span class="deco deco-star" style="top:28%;left:8%;background:rgba(225,205,245,0.24);"></span>
+        <span class="deco deco-star" style="top:30%;left:48%;background:rgba(190,175,220,0.25);"></span>
+        <span class="deco deco-star" style="top:35%;left:72%;background:rgba(210,188,232,0.22);"></span>
+        <span class="deco deco-star" style="top:38%;left:18%;background:rgba(218,195,238,0.26);"></span>
+        <span class="deco deco-star" style="top:42%;left:58%;background:rgba(195,180,228,0.23);"></span>
+        <span class="deco deco-star" style="top:45%;left:85%;background:rgba(205,190,235,0.25);"></span>
+        <span class="deco deco-star" style="top:48%;left:28%;background:rgba(222,198,242,0.22);"></span>
+        <span class="deco deco-star" style="top:52%;left:68%;background:rgba(190,175,222,0.24);"></span>
+        <span class="deco deco-star" style="top:55%;left:5%;background:rgba(215,185,232,0.23);"></span>
+        <span class="deco deco-star" style="top:58%;left:42%;background:rgba(200,182,228,0.25);"></span>
+        <span class="deco deco-star" style="top:62%;left:78%;background:rgba(210,195,238,0.22);"></span>
+        <span class="deco deco-star" style="top:65%;left:15%;background:rgba(195,178,225,0.26);"></span>
+        <span class="deco deco-star" style="top:68%;left:52%;background:rgba(225,200,240,0.23);"></span>
+        <span class="deco deco-star" style="top:72%;left:88%;background:rgba(205,185,230,0.24);"></span>
+        <span class="deco deco-star" style="top:75%;left:35%;background:rgba(218,192,236,0.22);"></span>
+        <span class="deco deco-star" style="top:78%;left:62%;background:rgba(190,178,220,0.25);"></span>
+        <span class="deco deco-star" style="top:82%;left:8%;background:rgba(212,190,235,0.23);"></span>
+        <span class="deco deco-star" style="top:85%;left:48%;background:rgba(200,185,228,0.24);"></span>
+        <span class="deco deco-star" style="top:88%;left:72%;background:rgba(222,195,240,0.22);"></span>
+        <span class="deco deco-star" style="top:92%;left:22%;background:rgba(208,182,230,0.25);"></span>
+        <span class="deco deco-star" style="top:95%;left:58%;background:rgba(195,178,222,0.23);"></span>
+        <!-- 十字 -->
+        <span class="deco deco-cross" style="top:35%;left:55%;color:rgba(160,195,222,0.3);font-size:12px;"></span>
+        <span class="deco deco-cross" style="top:60%;left:18%;color:rgba(185,175,215,0.28);font-size:10px;"></span>
+        <span class="deco deco-cross" style="top:14%;left:46%;color:rgba(170,200,225,0.32);font-size:14px;"></span>
+        <span class="deco deco-cross" style="top:80%;left:65%;color:rgba(175,185,218,0.28);font-size:11px;"></span>
+        <span class="deco deco-cross" style="top:42%;left:82%;color:rgba(165,198,222,0.3);font-size:9px;"></span>
+        <span class="deco deco-cross" style="top:28%;left:68%;color:rgba(190,180,220,0.26);font-size:13px;"></span>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-pill">
+            <a href="#about">我</a>
+            <a href="#experience">过往经历</a>
+            <a href="#skills">技能</a>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main>
+        <!-- 关于我 -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="profile-info">
+                        <h1>Hi，我是蒋奕文</h1>
+                        <div class="profile-tags">
+                            <span class="mbti-tag">ENTJ</span>
+                            <span class="skill-tag">数据挖掘者</span>
+                            <span class="skill-tag">AI探索者</span>
+                        </div>
+                        <p class="description" id="typed-text">
+                            自带强学习力与抗压 buff，执行力十足，善于配合团队、沟通对接及统筹安排。专注于数据分析、AI 应用赛道，专业功底扎实，项目实战经验充足，能用数据驱动业务提效。
+                        </p>
+                        <div class="action-tags">
+                            <button class="action-tag action-download" id="btnDownload">
+                                <span class="action-icon">📄</span> 下载简历
+                            </button>
+                            <button class="action-tag action-contact" id="btnContact">
+                                <span class="action-icon">💬</span> 联系我
+                            </button>
+                        </div>
+                    </div>
+                    <div class="profile-image">
+                        <img src="assets/自我介绍.jpg" alt="蒋奕文" id="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 过往经历 -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">过往经历</h2>
+                <p class="section-hint">← 左右滑动浏览 &nbsp;|&nbsp; 点击卡片翻转查看详情 →</p>
+                <div class="fan-carousel-wrapper">
+                    <button class="fan-arrow fan-arrow-left" aria-label="向左滑动">&#10094;</button>
+                    <div class="fan-carousel" id="fanCarousel">
+                        <!-- 1. 中南财经政法大学 -->
+                        <div class="fan-card" data-index="0">
+                            <div class="fan-card-inner">
+                                <div class="fan-card-front">
+                                    <img src="assets/中南财经政法大学.jpg" alt="中南财经政法大学">
+                                    <div class="fan-card-info">
+                                        <div class="fan-card-title">中南财经政法大学</div>
+                                        <div class="fan-card-date">2021.09 - 2025.06</div>
+                                        <div class="fan-card-role">本科 · 统计学</div>
+                                    </div>
+                                </div>
+                                <div class="fan-card-back">
+                                    <h4>中南财经政法大学（211）</h4>
+                                    <p class="fan-card-sub">本科 · 统计学</p>
+                                    <p class="fan-card-desc">GPA：3.93/4.0<br>• 校级优秀学生奖学金 | 全国大学生统计建模大赛国赛三等奖<br>• 本科的学习让我打下了坚实的统计学基础，在中南财的四年让我坚定未来数据分析师的职业发展路径。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2. 国泰海通 -->
+                        <div class="fan-card" data-index="1">
+                            <div class="fan-card-inner">
+                                <div class="fan-card-front">
+                                    <img src="assets/国泰海通.jpg" alt="国泰海通">
+                                    <div class="fan-card-info">
+                                        <div class="fan-card-title">国泰海通</div>
+                                        <div class="fan-card-date">2024.10 - 2025.01</div>
+                                        <div class="fan-card-role">行业分析实习生</div>
+                                    </div>
+                                </div>
+                                <div class="fan-card-back">
+                                    <h4>国泰海通证券 · 有色新材料组（新财富）</h4>
+                                    <p class="fan-card-sub">行业分析实习生</p>
+                                    <p class="fan-card-desc">• 参与行业研究，拆解目标公司三大业务板块，分析公司的行业规模、产品矩阵、竞争格局及目标公司在汽车与电子电器领域的需求情况。<br>• 收集有色金属行业市场规模情况，对有色市场表现进行整合分析，计算渗透率和市占率等，协助完成对有色金属产业的未来趋势预测。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3. 用友 -->
+                        <div class="fan-card" data-index="2">
+                            <div class="fan-card-inner">
+                                <div class="fan-card-front">
+                                    <img src="assets/用友.jpg" alt="用友">
+                                    <div class="fan-card-info">
+                                        <div class="fan-card-title">用友</div>
+                                        <div class="fan-card-date">2025.02 - 2025.05</div>
+                                        <div class="fan-card-role">数据运营实习生</div>
+                                    </div>
+                                </div>
+                                <div class="fan-card-back">
+                                    <h4>用友网络科技股份有限公司</h4>
+                                    <p class="fan-card-sub">数据运营实习生</p>
+                                    <p class="fan-card-desc">• 依托SQL开展数据分析，洞察到续费指标背离的业务异常，挖掘背后产品与体验问题并落地运营优化策略，实现核心续费率显著修复提升。<br>• 使用SQL+Tableau工具搭建大数据看板：将标准化的运营指标（产品续费率、续约率等）沉淀为自助的可视化看板，实现核心续费率、续约率等指标数据的实时监控。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4. 上海财经大学 -->
+                        <div class="fan-card" data-index="3">
+                            <div class="fan-card-inner">
+                                <div class="fan-card-front">
+                                    <img src="assets/上海财经大学.jpg" alt="上海财经大学">
+                                    <div class="fan-card-info">
+                                        <div class="fan-card-title">上海财经大学</div>
+                                        <div class="fan-card-date">2025.09 - 2027.06</div>
+                                        <div class="fan-card-role">硕士研究生 · 应用统计学</div>
+                                    </div>
+                                </div>
+                                <div class="fan-card-back">
+                                    <h4>上海财经大学（211）</h4>
+                                    <p class="fan-card-sub">硕士研究生 · 应用统计学</p>
+                                    <p class="fan-card-desc">GPA：3.42/4.0<br>• 研究生的学习让我对统计学有了更深层次的认识，积累了更多的实习实践经历，目前正在积极探索AI中~</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5. 美团 -->
+                        <div class="fan-card" data-index="4">
+                            <div class="fan-card-inner">
+                                <div class="fan-card-front">
+                                    <img src="assets/美团.jpg" alt="美团">
+                                    <div class="fan-card-info">
+                                        <div class="fan-card-title">美团</div>
+                                        <div class="fan-card-date">2025.09 - 2026.02</div>
+                                        <div class="fan-card-role">数据分析实习生</div>
+                                    </div>
+                                </div>
+                                <div class="fan-card-back">
+                                    <h4>美团 · 医药健康事业部</h4>
+                                    <p class="fan-card-sub">数据分析实习生</p>
+                                    <p class="fan-card-desc">• 针对眼镜商家动销低迷问题，从城市层级多维度拆解归因，借助随机森林模型挖掘核心影响因素，落地差异化运营策略，推动眼镜商家动销率提升17pp。<br>• 精准洞察眼科商家经营痛点，定制新店标准化孵化体系，优化任务机制，带动眼科新店任务点击率提升80%，动销率实现19%的增长。<br>• 围绕低价种植牙供给缺口，参与AI BD产品方案设计，搭建话术物料体系，通过数据圈选与对比测试验证效果，有效提升用户心智渗透与交易转化。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6. 哔哩哔哩 -->
+                        <div class="fan-card" data-index="5">
+                            <div class="fan-card-inner">
+                                <div class="fan-card-front">
+                                    <img src="assets/哔哩哔哩.jpg" alt="哔哩哔哩">
+                                    <div class="fan-card-info">
+                                        <div class="fan-card-title">哔哩哔哩</div>
+                                        <div class="fan-card-date">2026.02 - 至今</div>
+                                        <div class="fan-card-role">数据分析实习生</div>
+                                    </div>
+                                </div>
+                                <div class="fan-card-back">
+                                    <h4>哔哩哔哩 · 流量生态部</h4>
+                                    <p class="fan-card-sub">数据分析实习生</p>
+                                    <p class="fan-card-desc">• 优化优质内容筛选逻辑，以评论语义为核心抓手，多维度分析搭建筛选漏斗，解决传统行为数据噪音问题，实现48h内筛选600+优质稿件，优质稿件首页推荐曝光渗透提升7pp。<br>• 搭建内容洞察AI自动化分析工具，实现取数、异动、热点分析全链路自动化，固定周期自动输出报表与分析报告。<br>• 围绕AIGC领域潜力UP主挖掘需求，搭建每日更新的数据宽表，并接入企微智能播报机器人，高效处理海量稿件数据，批量产出签约线索，提升挖掘效率。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="fan-arrow fan-arrow-right" aria-label="向右滑动">&#10095;</button>
+                </div>
+                <div class="fan-dots" id="fanDots"></div>
+            </div>
+        </section>
+
+        <!-- 技能 -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">专业技能</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>编程语言</h3>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>R语言</span>
+                            <span>VBA</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>数据分析</h3>
+                        <div class="skill-tags">
+                            <span>统计分析</span>
+                            <span>机器学习</span>
+                            <span>数据挖掘</span>
+                            <span>数据可视化</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>工具软件</h3>
+                        <div class="skill-tags">
+                            <span>Tableau</span>
+                            <span>SPSS</span>
+                            <span>Excel</span>
+                            <span>PowerPoint</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>其他技能</h3>
+                        <div class="skill-tags">
+                            <span>视频剪辑</span>
+                            <span>海报制作</span>
+                            <span>推文编辑</span>
+                            <span>项目管理</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系方式弹出层 -->
+        <div class="contact-overlay" id="contactOverlay">
+            <div class="contact-popup">
+                <button class="popup-close" id="popupClose">&times;</button>
+                <h3>联系方式</h3>
+                <div class="popup-item">
+                    <span class="popup-label">📧 邮箱</span>
+                    <span class="popup-value">17692018161@163.com</span>
+                    <button class="copy-btn" data-copy="17692018161@163.com">复制</button>
+                </div>
+                <div class="popup-item">
+                    <span class="popup-label">📱 手机</span>
+                    <span class="popup-value">176-9201-8161</span>
+                    <button class="copy-btn" data-copy="176-9201-8161">复制</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 蒋奕文. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
